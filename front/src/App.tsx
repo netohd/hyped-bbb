@@ -1,8 +1,19 @@
-import { useState } from 'react'
+import { ProfileCard } from "./components/ProfileCard"
 
 function App() {
   return (
-    <h1>Olá mundo!</h1>
+    <>
+      <ProfileCard
+        name="Antonio"
+        age={26}
+        followers={2500}
+      />
+      <ProfileCard
+        name="Juliana"
+        age={18}
+        followers={5670}
+      />
+    </>
   )
 }
 
